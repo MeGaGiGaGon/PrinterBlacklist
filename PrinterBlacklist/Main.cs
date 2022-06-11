@@ -16,7 +16,7 @@ namespace PrinterBlacklist
     {
         public const string ModGuid = "com.GiGaGon.PrinterBlacklist";
         public const string ModName = "PrinterBlacklist";
-        public const string ModVer = "1.0.0";
+        public const string ModVer = "1.0.1";
         static readonly System.Random rnd = new System.Random();
         public static ConfigEntry<string> Myconfig { get; set; }
         private void Awake()
@@ -37,9 +37,9 @@ namespace PrinterBlacklist
                     {
                         case "Tier1":
                             list = RoR2.Run.instance.availableTier1DropList; break;
-                        case "Teir2":
+                        case "Tier2":
                             list = RoR2.Run.instance.availableTier2DropList; break;
-                        case "Teir3":
+                        case "Tier3":
                             list = RoR2.Run.instance.availableTier3DropList; break;
                         case "Boss":
                             list = RoR2.Run.instance.availableBossDropList; break;
